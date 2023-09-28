@@ -61,8 +61,19 @@ p{
   margin: 5% 3% 3% 0;
 }
 
+.title-row{
+  padding-top: 90px;
+}
+
 .col-subtitle{
   margin-top: 18%;
+}
+
+.col-img{
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+  width: 100%;
 }
 
 .btn.btn-outline-light.btn-lg.btn-title{
@@ -86,6 +97,24 @@ p{
 
 .fab-icon{
   margin-right: 8px;
+}
+
+.col-container{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.col-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease; 
+}
+
+.col-container:hover .col-img {
+  transform: scale(1.1);
 }
 
 
@@ -286,7 +315,7 @@ p{
 
 @media (max-width: 768px) {
 
-  .col-subtitle, .col-img{
+  #title{
     text-align: center;
   }
 
