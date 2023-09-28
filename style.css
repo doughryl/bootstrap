@@ -1,0 +1,291 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+p{
+  color:grey;
+}
+
+/*Title Section*/
+
+#title{
+  background-color: rgb(255, 246, 244);
+  padding: 3% 15% 8%;
+}
+
+.navbar.navbar-expand-lg.navbar-light{
+  padding: 0;
+}
+
+.navbar-brand.brand-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-brand.brand-title{
+  color: rgb(248,85,45);
+}
+
+.navbar-light .navbar-nav .nav-link.links:hover,
+.navbar-light .navbar-brand.brand-title:hover{
+  color: rgb(255, 51, 0);
+} 
+
+.links{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+  color: black;
+  transition: ease-in-out 0.2s;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav{
+  padding: 0 0 4.5rem;
+}
+
+.subtitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.btn-title{
+  margin: 5% 3% 3% 0;
+}
+
+.col-subtitle{
+  margin-top: 18%;
+}
+
+.btn.btn-outline-light.btn-lg.btn-title{
+  background-color: rgb(248,85,45);
+  transition: ease-in-out 0.2;
+}
+
+.btn.btn-outline-dark.btn-lg.btn-title{
+  transition: ease-in-out 0.2s;
+}
+
+.btn.btn-outline-light.btn-lg.btn-title:hover{
+  background-color: rgb(255, 51, 0);
+  color: white
+}
+
+.btn.btn-outline-dark.btn-lg.btn-title:hover{
+  background-color: rgb(248,85,45);
+  border-color: rgb(248,85,45);;
+}
+
+.fab-icon{
+  margin-right: 8px;
+}
+
+
+/* Features */
+
+#feature{
+  padding: 7% 14%;
+  text-align: center;
+}
+
+.fa-icon{
+  color: rgb(247, 117, 85);
+  margin: 1rem;
+}
+
+.fa-icon:hover{
+  color: rgb(255, 51, 0);
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-col{
+  padding: 5%;
+}
+
+/*Testimonials*/
+
+#testimonial{
+  background-color: rgb(246, 119, 88);
+  text-align: center;
+  color: white;
+}
+
+.testimonial-image{
+  width: 20%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  margin: auto;
+  width: 70%;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+
+/*Card*/
+
+#Card{
+  text-align: center;
+  padding: 100px;
+}
+
+.card.cat-card, .card.banner-card{
+  border-radius: 20px
+}
+
+.card.cat-card .card-header.card-head{
+  border-radius: 20px 20px 0 0; 
+}
+
+.card-body{
+  width: 80%;
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%;
+}
+
+.card-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-price{
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.image-container{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.card-header.card-head{
+  background-color: rgb(250, 131, 102);
+  color: white;
+}
+
+.card-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease; 
+}
+
+.image-container:hover .card-img {
+  transform: scale(1.1);
+}
+
+.btn.btn-outline-dark.btn-lg.btn-card, .btn.btn-outline-dark.btn-lg.btn-buy{
+  transition: ease-in-out 0.2s;
+}
+
+.btn.btn-outline-dark.btn-lg.btn-card:hover, .btn.btn-outline-dark.btn-lg.btn-buy:hover{
+  background-color: rgb(250, 131, 102);
+  border-color: rgb(250, 131, 102);
+}
+
+/*Banner*/
+
+#banner{
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(246, 119, 88);
+  color: white;
+}
+
+.banner-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.card-desc{
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card.banner-card{
+  background-color: rgb(246, 119, 88);
+}
+
+.btn.btn-outline-light.btn-lg.btn-block.btn-banner{
+  font-size: 1rem;
+}
+
+/*Footer-Section*/
+
+#footer{
+  text-align: center;
+  padding: 7% 14%;
+  background-color: rgb(255, 246, 244);
+}
+
+.foot-icon{
+  padding: 20px;
+  transition: ease-in-out 0.2s;
+}
+
+.foot-icon:hover{
+  color: rgb(247, 117, 85);
+}
+
+/*Media Query*/
+
+@media (max-width: 1024px) {
+
+  .row.btn-row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-lg-6.card-btn{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .col-subtitle, .col-img{
+    text-align: center;
+  }
+
+  .card{
+    margin-bottom: 50px;
+  }
+
+  #banner, #card{
+    padding-bottom: 50px;
+  }
+
+}
