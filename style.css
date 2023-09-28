@@ -15,6 +15,10 @@ p{
   padding: 3% 15% 8%;
 }
 
+.title-desc{
+  margin-bottom: 50px;
+}
+
 .navbar.navbar-expand-lg.navbar-light{
   padding: 0;
 }
