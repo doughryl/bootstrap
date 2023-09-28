@@ -7,6 +7,7 @@ p{
   color:grey;
 }
 
+
 /*Title Section*/
 
 #title{
@@ -192,6 +193,10 @@ p{
   transition: transform 0.2s ease; 
 }
 
+.card-btn a:hover {
+  text-decoration: none;
+}
+
 .image-container:hover .card-img {
   transform: scale(1.1);
 }
@@ -232,6 +237,10 @@ p{
   background-color: rgb(246, 119, 88);
 }
 
+.card-body.banner a:hover {
+  text-decoration: none;
+}
+
 .btn.btn-outline-light.btn-lg.btn-block.btn-banner{
   font-size: 1rem;
 }
@@ -247,6 +256,7 @@ p{
 .foot-icon{
   padding: 20px;
   transition: ease-in-out 0.2s;
+  color: black;
 }
 
 .foot-icon:hover{
