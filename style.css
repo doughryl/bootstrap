@@ -405,4 +405,12 @@ p{
   }
 }
 
+@media (max-width: 440px) {
+
+  .subtitle, .card-heading, .banner-heading{
+    font-size: 1.5rem;
+  }
+
+}
+
 
