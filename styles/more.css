@@ -1,0 +1,141 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+p{
+  color:grey;
+}
+
+
+/*Title Section*/
+
+#title{
+  background-color: rgb(255, 246, 244);
+  padding: 3% 15% 3%;
+}
+
+
+.navbar.navbar-expand-lg.navbar-light{
+  padding: 0;
+}
+
+.navbar-brand.brand-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-brand.brand-title{
+  color: rgb(248,85,45);
+}
+
+.navbar-light .navbar-nav .nav-link.links:hover,
+.navbar-light .navbar-brand.brand-title:hover{
+  color: rgb(255, 51, 0);
+} 
+
+.links{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.20rem;
+  color: black;
+  transition: ease-in-out 0.2s;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav{
+  padding: 0 0 4.5rem;
+}
+
+
+/*Banner*/
+
+#banner{
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(246, 119, 88);
+  color: white;
+}
+
+.banner-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.card-desc{
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+.card.banner-card{
+  background-color: rgb(246, 119, 88);
+  width: 50%;
+  margin: auto;
+}
+
+.card-body.banner a:hover {
+  text-decoration: none;
+}
+
+.btn.btn-outline-light.btn-lg.btn-block.btn-banner{
+  font-size: 1rem;
+}
+
+/*Footer-Section*/
+
+#footer{
+  text-align: center;
+  padding: 7% 14%;
+  background-color: rgb(255, 246, 244);
+}
+
+.foot-icon{
+  padding: 20px;
+  transition: ease-in-out 0.2s;
+  color: black;
+}
+
+.foot-icon:hover{
+  color: rgb(247, 117, 85);
+}
+
+/*Media Query*/
+
+
+@media (max-width: 1224px) {
+
+  #banner{
+    padding-bottom: 50px;
+  }
+
+  .card.banner-card{
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 460px) {
+
+  #banner{
+    padding: 100px 40px;
+  }
+
+}
+
+@media (max-width: 440px) {
+
+  .banner-heading{
+    font-size: 1.5rem;
+  }
+
+}
